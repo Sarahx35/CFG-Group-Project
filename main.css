@@ -4,6 +4,7 @@ p {
     font-weight: 300;
 }
 
+
 /*---upper navbar styling---*/
 .nav-bar {
     background-color: #FFFFFF;
@@ -87,6 +88,12 @@ body {
     padding-bottom: 5em;
 }
 
+@media (max-width: 800px) {
+    .welcome-text {
+      flex: wrap;
+    }
+  }
+
 .welcome-take-a-look-button {
     background-color: #000;
     border-radius: 5px;
@@ -110,6 +117,15 @@ body {
     padding-bottom: 5em;
 }
 
+@media (max-width: 800px) {
+    .welcome-image {
+      max-width: 70%;
+      height: auto;
+      margin: auto;
+    }
+  }
+
+
 /*Homepage Intro Section*/
 .intro-section {
     display: flex;
@@ -125,6 +141,12 @@ body {
     margin: 5em;
 }
 
+@media (max-width: 800px) {
+    .intro-text {
+      flex: wrap;
+    }
+  }
+
 .intro-suite-bullets-text {
     padding: 0.3em;
 }
@@ -136,6 +158,14 @@ body {
     height: 30em;
 }
 
+@media (max-width: 800px) {
+    .intro-image {
+      max-width: 70%;
+      height: auto;
+      margin: auto;
+    }
+  }
+
 /*Homepage Suites Image Gallery*/
 
 .other-suites-para-homepage {
@@ -143,6 +173,8 @@ body {
     margin-left: 25em;
     margin-right: 25em;
 }
+
+
 
 
 /*Homepage Review Section*/
